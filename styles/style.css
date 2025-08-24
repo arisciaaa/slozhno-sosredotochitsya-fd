@@ -329,6 +329,7 @@
   .main__gallery img {
     display: block;
     object-fit: cover;
+    object-position: center;
     block-size: 100%;
   }
 
