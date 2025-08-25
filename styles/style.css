@@ -234,14 +234,12 @@
     padding: var(--s-gap, 20px);
   }
   
-  .header::before,
-  .footer::before {
+  .decorated-zone::before {
     inset-block-start: var(--s-gap, 20px);
     inset-inline-end: var(--s-gap, 20px);
   }
 
-  .header::after,
-  .footer::after {
+  .decorated-zone::after {
     inset-block-end: var(--s-gap, 20px);
     inset-inline-start: var(--s-gap, 20px);
   }
